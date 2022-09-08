@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints exactly with proper grammar, but the outcome is a piece of art,
+ * main - printf to print an exact sentence
  * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
