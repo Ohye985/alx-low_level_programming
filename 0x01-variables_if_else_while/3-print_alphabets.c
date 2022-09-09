@@ -14,9 +14,10 @@ int main(void)
 	{
 		putchar("a");
 		a++;
-		putchat("A");
-		A++
+		putchar("A");
+		A++;
 	}
+	
 	putchar("\n");
 	return (0);
 }
