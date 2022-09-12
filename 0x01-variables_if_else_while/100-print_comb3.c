@@ -10,9 +10,9 @@ int main(void)
 	int firstDigit;
 	int lastDigit;
 
-	for (firstDigit = '0'; firstDigit <= "9"; firstDigit++)
+	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 	{
-		for (lastDigit = (firstDigit + 1); lastDigit <= "9"; lastDigit++)
+		for (lastDigit = (firstDigit + 1); lastDigit <= '9'; lastDigit++)
 		{
 			putchar(firstDigit);
 			putchar(lastDigit);
