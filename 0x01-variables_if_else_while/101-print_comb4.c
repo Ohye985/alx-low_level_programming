@@ -18,7 +18,7 @@ int main(void)
 			for (lastDigit = (secondDigit + 1); lastDigit <= '9'; lastDigit++)
 			{
 				putchar(firstDigit);
-				putchar(secondDigit)
+				putchar(secondDigit);
 				putchar(lastDigit);
 
 				if (firstDigit != '7' || secondDigit != '8' || lastDigit != '9')
