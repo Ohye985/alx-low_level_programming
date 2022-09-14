@@ -14,7 +14,7 @@ int print_last_digit(int lastDigit)
 
 	if (remainder < 0)
 	{
-		remainder = (-1 * last);
+		remainder = (-1 * remainder);
 	}
 	_putchar(remainder + '0');
 	return (remainder);
