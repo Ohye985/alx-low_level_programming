@@ -12,15 +12,16 @@ void print_to_98(int n)
 
 	for (i = n; i < 98; i++)
 	{
-		printf("%d, ", '\n' , n);
+		printf("%d, ", n);
 	}
 
 	for (i = n; i > 98; i--)
 	{
-		printf("%d, \n", n);
+		printf("%d, ", n);
 	}
 	if (n == 98)
 	{
 		printf("%d\n", n);
 	}
+	printf('\n');
 }
