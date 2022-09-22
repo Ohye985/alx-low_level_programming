@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+ * cap_string - capitalizes chars in a string following a separator
+ *
+ * @c: character string pointer
+ * Return: char pointer
+ */
 char *cap_string(char *s)
 {
 	int count = 0, i;
